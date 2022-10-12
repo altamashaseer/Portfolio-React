@@ -19,7 +19,7 @@ function Navbar() {
             <li>Contact</li>
           </ul>
         </div>
-        <button className="button n-button">Resume</button>
+        <button className="button n-button">Resume <i class="fa-solid fa-download"></i></button>
       </div>
     </div>
   )

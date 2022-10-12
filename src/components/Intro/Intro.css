@@ -1,8 +1,9 @@
-.Intro {
+.intro {
   display: flex;
   height: 77vh;
   margin-top: 6rem;
-}
+justify-content: space-between;
+  }
 
 /* LEFT SIDE */
 
@@ -106,3 +107,32 @@
   margin-right: 10px;
   font-size: 1.2rem;
 }
+
+/* RIGHT SIDE  */
+.i-right{
+  width: 40%;
+  display: flex;
+  margin-right: 2rem;
+}
+
+.i-right .img-wrapper img{
+  width: 100%;
+  animation: updown 3s linear infinite;
+  transition: .3s ease-in-out;
+  /* text-shadow: 0 0 10px 0 black  */
+}
+
+  @keyframes updown {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+
+      transform: translatey(-9px);
+    }
+    100% {
+      
+      transform: translatey(0px);
+    }
+  }
+

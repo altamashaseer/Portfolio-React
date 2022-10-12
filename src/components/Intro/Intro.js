@@ -1,5 +1,6 @@
 import React from 'react'
 import './Intro.css'
+import introImg from '../../img/Intro.png'
 import Typewriter from 'typewriter-effect';
 
 function Intro() {
@@ -33,6 +34,9 @@ function Intro() {
       </div>
 
       <div className="i-right">
+        <div className="img-wrapper">
+              <img src={introImg} alt="IntroImg" />
+        </div>
 
 
       </div>
