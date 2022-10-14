@@ -1,8 +1,13 @@
 import React from 'react'
+import './About.css'
 
 function About() {
   return (
-    <div>About</div>
+    <section className='about'>
+      <div className="left">
+        
+      </div>
+    </section>
   )
 }
 

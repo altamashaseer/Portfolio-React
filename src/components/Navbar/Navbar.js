@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className='n-wrapper' id='Navbar'>
       <div className="n-left">
-        <span class="n-name">A A.</span>
+        <span class="n-name">A A</span>
       </div>
       <div className="n-right">
         <div className="n-list">

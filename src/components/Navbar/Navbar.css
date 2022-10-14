@@ -21,7 +21,9 @@
     font-family: Love Light;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #fb982f
+    color: var(--blue);
+    cursor: pointer;
+    
 }
 
 .n-right {
@@ -29,7 +31,7 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .n-list {
@@ -38,18 +40,22 @@
 
 .n-list ul {
     display: flex;
-    gap: 1.6rem;
+    gap: 1.5rem;
     margin-right: 2rem;
     margin-top: 1rem;
 }
 
 .n-list ul li {
     list-style: none;
+    font-size: .9rem;
+    border-bottom: 2px solid transparent;
 }
 
 .n-list ul li:hover {
     cursor: pointer;
-    color: var(--orange);
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue);
+    transition: .1s ease-out;
 }
 
 .n-button {
