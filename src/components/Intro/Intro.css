@@ -1,8 +1,8 @@
 .intro {
   display: flex;
   height: 80vh;
-  margin-top: 7rem;
-  justify-content: space-between;
+  margin-top: 6rem;
+  justify-content: center;
 }
 
 /* LEFT SIDE */
@@ -52,8 +52,9 @@
 .i-left {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
   gap: 2rem;
+  align-items: center;
 }
 
 .i-name {
@@ -92,7 +93,7 @@
 }
 .connections i{
   font-size: 2.5rem;
-  margin: 5px 13px;
+  margin: 10px 13px;
   color: var(--black);
   
 }
@@ -106,38 +107,9 @@
   font-size: 14px;
   color: var(--gray);
   margin-top: 10px;
-  width: 90%;
+  width: 95%;
   line-height: 1.7;
 }
 
+/* background */
 
-
-/* RIGHT SIDE  */
-.i-right {
-  width: 38%;
-  display: flex;
-  /* margin-right: 2rem; */
-}
-
-.i-right .img-wrapper img {
-  width: 100%;
-  animation: updown 3s linear infinite;
-  transition: .3s ease-in-out;
-  /* text-shadow: 0 0 10px 0 black  */
-}
-
-@keyframes updown {
-  0% {
-    transform: translatey(0px);
-  }
-
-  50% {
-
-    transform: translatey(-9px);
-  }
-
-  100% {
-
-    transform: translatey(0px);
-  }
-}

@@ -1,0 +1,31 @@
+
+
+
+
+
+/* left SIDE  */
+.a-left {
+    width: 38%;
+  }
+  
+  .a-left .img-wrapper img {
+    width: 100%;
+    animation: updown 3s linear infinite;
+    transition: .3s ease-in-out;
+  }
+  
+  @keyframes updown {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+  
+      transform: translatey(-9px);
+    }
+  
+    100% {
+  
+      transform: translatey(0px);
+    }
+  }

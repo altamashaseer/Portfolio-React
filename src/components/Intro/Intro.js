@@ -1,17 +1,18 @@
 import React from 'react'
 import './Intro.css'
-import introImg from '../../img/Intro.png'
 import Typewriter from 'typewriter-effect';
 
 function Intro() {
+
   return (
     <div className='intro'>
+      {/* background  */}
 
       <div className="i-left">
         <div className="i-name">
           <div className='name'>
             <span>Hi, I am  </span>
-            <span id='name'>Altamash <span class="wave">👋</span></span>
+            <span id='name'>Altamash Aseer <span class="wave">👋</span></span>
           </div>
 
           <div className="typeeffect">
@@ -31,17 +32,9 @@ function Intro() {
           <a href="https://github.com/altamashaseer" target='__blank'><i className="fa-brands fa-github"></i></a>
 
           <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" target='__blank'><i class="fa-brands fa-linkedin-in"></i></a>
-          
+
           <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" ><i class="fa-regular fa-envelope"></i></a>
         </div>
-      </div>
-
-      <div className="i-right">
-        <div className="img-wrapper">
-          <img src={introImg} alt="IntroImg" />
-        </div>
-
-
       </div>
     </div>
   )
