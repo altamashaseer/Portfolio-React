@@ -2,7 +2,7 @@
 
 :root {
   --blue: #125588;
-  --buttonBlue: #186cac;
+  --UnderBlue: #125588a9;
   --yellow: #F5C32C;
   --orange: #FCA61F;
   --black: #242D49;
@@ -35,4 +35,12 @@
   cursor: pointer;
   border: 1px solid var(--blue);
   color: var(--blue);
+}
+.heading{
+  font-size: 2.5rem;
+  font-weight: 600;
+  border-bottom: 7px solid var(--UnderBlue);
+  padding-bottom: 2px;
+  margin-bottom: 2rem;
+  width:fit-content;
 }

@@ -1,0 +1,42 @@
+/* SKILLS SECTION  */
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.skills .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.s-heading {
+    margin-bottom: 4rem;
+}
+
+/* SINGLE SKILL SECTION */
+.s-wrapper {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 3rem;
+}
+
+.s-wrapper img {
+    width: 90px;
+    transition: 0.2s;
+}
+.s-wrapper img:hover{
+    transform: translate(0, -10px);
+    /* transform: scale(1.2); */
+}
+
+.SName {
+    font-size: .6rem;
+    margin-top: 5px;
+}
