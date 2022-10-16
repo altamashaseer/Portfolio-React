@@ -1,7 +1,8 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import Skill from './Skill'
 import javascript from '../../img/skills/javascript.svg'
 import './Skills.css'
+import Aos from 'aos'
 
 const Skills = () => {
     const skill = [
@@ -39,6 +40,10 @@ const Skills = () => {
             image: require('../../img/skills/figma.svg').default,
         },
         {
+            'key': 'Material UI',
+            image: require('../../img/skills/mui.svg').default,
+        },
+        {
             'key': 'Node JS',
             image: require('../../img/skills/nodejs.svg').default,
         },
@@ -61,6 +66,9 @@ const Skills = () => {
       
         
     ]
+    useEffect(() => {
+        Aos.init({duration: 1300})
+      }, [])
 
     return (
         <div className='skills'>
@@ -68,7 +76,7 @@ const Skills = () => {
 
             <div className="container">
                     {skill.map((element) => {
-                        return <div key={element.key}>
+                        return <div  data-aos="fade-up" key={element.key}>
                             <Skill image={element.image} SName={element.key} />
                         </div>
                     })}
