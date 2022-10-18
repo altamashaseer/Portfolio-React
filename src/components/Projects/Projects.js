@@ -8,30 +8,24 @@ function Projects() {
             img: require('../../img/skills/react.svg').default,
             'heading': 'ZARA - Online Fashion Store',
             'description': 'Zara is one of the largest international fashion companies. It belongs to Inditex, one of the world’s largest distribution groups',
-            'techused':
-                [{
-                    t1: require('../../img/skills/react.svg').default,
-                    t2: require('../../img/skills/react.svg').default,
-                    t3: require('../../img/skills/react.svg').default,
-                }]
+            'techused': [
+                { t: require('../../img/skills/react.svg').default },
+                { t: require('../../img/skills/react.svg').default },
+                { t: require('../../img/skills/react.svg').default },
+            ]
 
         }
     ]
-    
-    const distributor = (element) => {
-        console.log(element.length())
-        // for (let index = 1; index <= 3; index++) {
-        //     const element = array[index];
 
-        // }
-    }
     return (
-        <div className='container'>
+        <div className='container p-container'>
+             <h3 className="heading p-heading">Projects 💻</h3>
             {ProjectItems.map((element) => {
                 return <div key={element.heading}>
-                    <ProjectItem heading={element.heading} img={element.img} description={element.description} techused={distributor(element.techused)} />
+                    <ProjectItem heading={element.heading} img={element.img} description={element.description} techused={element.techused} />
                 </div>
             })}
+
 
         </div>
     )

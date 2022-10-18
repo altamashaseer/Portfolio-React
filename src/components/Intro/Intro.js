@@ -12,7 +12,7 @@ function Intro() {
         <div className="i-name">
           <div className='name'>
             <span>Hi, I am  </span>
-            <span id='name'>Altamash Aseer <span class="wave">👋</span></span>
+            <span id='name'>Altamash Aseer <span className="wave">👋</span></span>
           </div>
 
           <div className="typeeffect">
@@ -31,9 +31,9 @@ function Intro() {
         <div className="connections">
           <a href="https://github.com/altamashaseer" target='__blank'><i className="fa-brands fa-github"></i></a>
 
-          <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" target='__blank'><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" target='__blank'><i className="fa-brands fa-linkedin-in"></i></a>
 
-          <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" ><i class="fa-regular fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" ><i className="fa-regular fa-envelope"></i></a>
         </div>
       </div>
     </div>

@@ -1,0 +1,20 @@
+.p-container{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+
+
+
+/* Projectitem */
+.tech{
+    display: flex;
+}
+.project-tech{ 
+    width: 25px;
+    border: 1px solid #dee2e6;
+}
