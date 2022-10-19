@@ -4,15 +4,20 @@ import './Projects.css'
 function ProjectItem(props) {
     return (
         <div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src={props.img} className="card-img-top" alt="..." />
+            <div className="card p-card">
+                <img src={props.img} className="card-img-top p-img" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{props.heading}</h5>
                     <p className="card-text">{props.description}</p>
-                    <a href="/" className="btn btn-primary">Github</a> 
+                    <div className="buttons">
+                    <a href="/"><button className="button p-button">Github</button></a>
+                    <a href="/"><button className="button p-button">Visit</button></a>
+                    </div>
                     <div className="tech">
-                    {props.techused.map((tech)=>{
-                            return <div className='project-tech'><img src={tech.t} alt="techs" /></div>
+                        {props.techused.map((tech) => {
+                            return <div key={tech.t} className='project-tech'>
+                                <img src={tech.t} alt="techs" />
+                            </div>
                         })}
                     </div>
                 </div>
