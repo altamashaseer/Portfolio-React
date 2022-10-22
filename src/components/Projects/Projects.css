@@ -54,6 +54,7 @@
 .buttons{
     display: flex;
     justify-content: center;
+    transition: .3s ease-in-out;
 }
 .p-button{
     margin: 0 1rem .9rem 0;

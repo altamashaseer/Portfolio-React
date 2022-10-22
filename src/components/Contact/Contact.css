@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.card {
+.c-card {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -27,25 +27,43 @@
     margin: auto;
     margin-top: 1rem;
     padding: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: .2s ease-in-out;
 }
 
-.card i {
-    font-size: 60px;
+.c-card:hover {
+    background-color: #12558825;
+    transform: scale(1.05);
+}
+
+.c-card i {
+    font-size: 55px;
     padding: 4px;
+    color: #023f6e;
 }
 
-.card a {
+.c-card a {
     text-decoration: none;
     cursor: pointer;
 }
 
-/* .card a h4 {
-    padding: 44px;
-} */
-.card a h5 {
+.c-card h4 {
+    padding: 10px 0 2px 0;
+}
+
+.c-card a h5 {
     font-size: medium;
+    font-weight: 500;
+    color: rgb(95, 95, 95);
 }
 
 .right {
     width: 60%;
 }
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
