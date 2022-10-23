@@ -57,13 +57,58 @@
     color: rgb(95, 95, 95);
 }
 
+/* RIGHT SIDE  */
 .right {
     width: 60%;
+    margin-top: .8rem;
 }
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+.form-heading{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+.form-heading h4{
+    margin-bottom:17px;
+}
+.form-heading i{
+    font-size: 2rem;
+    margin-left: .6rem;   
+    color: var(--blue); 
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-left: 3rem;
+}
+
+form input,
+form textarea {
+    width: 75%;
+    padding: 0.7rem;
+    outline: none;
+    border: .099rem solid var(--gray);
+    font-size: 1rem;
+    font-weight:normal;
+}
+form input::placeholder,
+form textarea::placeholder {
+    font-size: 1rem;
+    font-weight:normal;
+}
+
+textarea:focus,
+input:focus {
+    border: .1rem solid var(--blue);
+}
+
+.f-button {
+    display: flex;
+    width: fit-content;
+}
+
+.f-button span {
+    margin-left: 3px;
+}
+
