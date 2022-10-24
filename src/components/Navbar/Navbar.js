@@ -1,14 +1,16 @@
 import React from 'react'
 import './Navbar.css'
+import logo from '../../img/logo.png'
 
 
 function Navbar() {
   return (
     <div className='n-wrapper' id='Navbar'>
       <div className="n-left">
-        <span className="n-name">A A</span>
+        {/* <span className="n-name">A A</span> */}
+        <img src={logo} alt="" />
       </div>
-      <div className="n-right">
+      <div className="n-right ">
         <div className="n-list">
           <ul>
             <li>Home</li>

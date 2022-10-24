@@ -1,7 +1,10 @@
-#Navbar{
+#Navbar {
     position: sticky;
-    top:0;
-    /* left: 0; */
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: whitesmoke;
+    padding: 0 3.5rem;
 }
 
 .n-wrapper {
@@ -15,6 +18,12 @@
     flex: 1;
     align-items: center;
     gap: 2rem;
+
+}
+
+/* trial */
+.n-left img {
+    height: 80%;
 }
 
 .n-name {
@@ -23,7 +32,7 @@
     font-weight: bold;
     color: var(--blue);
     cursor: pointer;
-    
+
 }
 
 .n-right {
@@ -66,5 +75,5 @@
 
 .n-button i {
     margin-left: 5px;
-    
+
 }

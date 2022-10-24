@@ -1,6 +1,9 @@
 import React, { useRef, useState } from 'react';
 import './Contact.css'
 import emailjs from '@emailjs/browser'
+import Lottie from "lottie-react";
+import doneAnimation from '../../img/animations/done.json'
+
 
 function Contact() {
     const form = useRef();
@@ -30,7 +33,7 @@ function Contact() {
     }
 
     return (
-        <div className='c-container'>
+        <div className='c-container global-padding'>
             <h3 className="heading p-heading">Contact 📱</h3>
             <div className="c-wrapper">
                 <div className="left">
@@ -56,17 +59,24 @@ function Contact() {
                 <div className="right">
                     <form ref={form} onSubmit={sendEmail} style={{ display: Display.form ? 'flex' : 'none' }}>
                         <div className='form-heading'>
-                        <h4 >..or directly send a message</h4>
-                        <i class="fa-solid fa-turn-down"></i>
+                            <h4 >or directly send a message</h4>
+                            <span class="material-symbols-outlined">chat</span>
                         </div>
-                        <input type="text" name="name" id="name" onChange={handleOnChange} required placeholder='Name' />
+                        <input type="text" name="name" id="names" onChange={handleOnChange} required placeholder='Name' />
                         <input type="email" name="email" id="email" onChange={handleOnChange} required placeholder='Email' />
                         <textarea name="message" id="message" cols="30" rows="9" onChange={handleOnChange} placeholder='Message' required></textarea>
                         <button type='submit' disabled={Toggle} onClick={onClick} className='f-button button'>{btn.Txt} <span class="material-symbols-outlined">{btn.Icon}</span></button>
                     </form>
-                    <h4 className="success" style={{ display: Display.success ? 'flex' : 'none' }}>Thanks for reaching out! Your message was successfully delivered <span className="material-symbols-outlined">task_alt</span></h4>
+                    <div className="s-container">
+                        <div className="success" style={{ display: Display.success ? 'flex' : 'none' }}>
+                            <div className="animation">
+                                <Lottie animationData={doneAnimation} loop={true} />
+                            </div>
+                            <h4> Your message was successfully delivered.</h4>
+                            <h4>Thanks for reaching out! </h4>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     )

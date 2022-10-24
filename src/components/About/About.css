@@ -10,15 +10,16 @@
 /* left SIDE  */
 .a-left {
     width: 40%;
-    margin-top: 3rem;
   }
+
+
   
-  .a-left .img-wrapper img {
+  /* .a-left .img-wrapper img {
     width: 100%;
     animation: updown 3s linear infinite;
     transition: .3s ease-in-out;
-  }
-  
+  } */
+/*   
   @keyframes updown {
     0% {
       transform: translatey(0px);
@@ -33,7 +34,7 @@
   
       transform: translatey(0px);
     }
-  }
+  } */
 
   .a-right{
     width: 55%;
@@ -45,7 +46,7 @@
 
 .a-para{
   font-size: 18px;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   color: var(--gray);
-  line-height: 1.5;
+  line-height: 1.6;
 }

@@ -62,7 +62,7 @@ function Projects() {
     ]
 
     return (
-        <div className='p-container'>
+        <div className='p-container global-padding'>
             <h3 className="heading p-heading">Projects 💻</h3>
             <div className="project-item-wrapper">
                 {ProjectItems.map((element) => {

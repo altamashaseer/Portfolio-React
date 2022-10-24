@@ -5,14 +5,12 @@ import Typewriter from 'typewriter-effect';
 function Intro() {
 
   return (
-    <div className='intro'>
-      {/* background  */}
-
-      <div className="i-left">
+    <div className='intro global-padding'>
+      <div className="i-main">
         <div className="i-name">
           <div className='name'>
             <span>Hi, I am  </span>
-            <span id='name'>Altamash Aseer <span className="wave">👋</span></span>
+            <span id='name'>Altamash Aseer </span><span className="wave">👋</span>
           </div>
 
           <div className="typeeffect">

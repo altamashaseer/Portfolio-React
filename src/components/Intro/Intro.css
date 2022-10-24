@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-/* LEFT SIDE */
+/* main*/
 
 .wave {
   animation-name: wave-animation;
@@ -13,6 +13,8 @@
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
+  font-size: 2.5rem !important;
+  margin-left: .7rem;
 }
 
 @keyframes wave-animation {
@@ -49,7 +51,7 @@
   }
 }
 
-.i-left {
+.i-main {
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -66,12 +68,31 @@
 .name span {
   color: var(--black);
   font-weight: 600;
-  font-size: 2.8rem;
+  font-size: 3rem;
 }
 
-#name  {
-  color: var(--blue);
-  font-weight:bolder;
+#name {
+  /* text-transform: uppercase; */
+  background: url('https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+
+  /* Gradient */
+  /* background: rgb(255, 0, 0);
+  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(23, 68, 162, 1) 25%, rgba(0, 82, 255, 1) 50%, rgba(156, 0, 233, 1) 75%, rgba(255, 35, 35, 1) 100%); */
+
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 40s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .typeeffect {
@@ -85,19 +106,22 @@
 }
 
 .Typewriter__wrapper {
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
 }
-.connections{
+
+.connections {
   display: flex;
   justify-content: flex-start;
 }
-.connections i{
+
+.connections i {
   font-size: 2.5rem;
   margin: 13px;
   color: var(--black);
-  
+
 }
-.connections i:hover{
+
+.connections i:hover {
   color: var(--blue);
 }
 
@@ -112,4 +136,3 @@
 }
 
 /* background */
-
