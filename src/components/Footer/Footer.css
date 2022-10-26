@@ -1,7 +1,19 @@
 .foot-container{
-    height: 30vh;
-    background-color: var(--blue);
-    color: beige;
-    margin-top: 3rem;
-    
+    height: 8vh;
+    margin-top: 4rem;
+    background-color: var(--black);
+    /* background-image: url('../../img/footwave.svg'); 
+    background-position: center center;
+    background-size:cover;
+    background-position-y: 12%; */
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.f-wrapper {
+    color: whitesmoke;
+}
+.f-wrapper span{
+    font-size: medium;
 }
