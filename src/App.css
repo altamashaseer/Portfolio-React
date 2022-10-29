@@ -1,5 +1,3 @@
-
-
 :root {
   /* --blue: #8c00ff; */
   --blue: #00457a;
@@ -10,29 +8,51 @@
 }
 
 .global-padding {
-  padding: 0.5rem 3.5rem;
+  padding: 0rem 3.5rem;
   overflow: hidden;
   box-sizing: border-box;
 }
+.global-margin{
+  margin: 1rem 0;
+}
+
 .button {
   background-color: var(--blue);
   border-radius: 2px;
   border: 1px solid transparent;
   color: white;
   font-size: 16px;
-  padding: 10px 26px 10px 26px;
+  /* padding: 10px 26px 10px 26px; */
+  padding: .5rem 1.3rem;
 }
+
 .button:hover {
   background: white;
   cursor: pointer;
   border: 1px solid var(--blue);
   color: var(--blue);
 }
-.heading{
+
+.heading {
   font-size: 2.5rem;
   font-weight: 600;
   border-bottom: 7px solid var(--UnderBlue);
   padding-bottom: 2px;
   margin-bottom: 2rem;
-  width:fit-content;
+  width: fit-content;
+}
+
+/* Responsive  */
+@media screen and (max-width:1100px) {
+  .global-padding {
+    padding: .5rem;
+  }
+}
+@media screen and (max-width:700px){
+  .heading{
+      font-size:1.5rem;   
+  }
+  .global-padding {
+    padding: .2rem  ;
+  }
 }

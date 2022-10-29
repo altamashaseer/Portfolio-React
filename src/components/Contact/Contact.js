@@ -59,8 +59,8 @@ function Contact() {
                 <div className="right">
                     <form ref={form} onSubmit={sendEmail} style={{ display: Display.form ? 'flex' : 'none' }}>
                         <div className='form-heading'>
-                            <h4 >or directly send a message</h4>
-                            <span class="material-symbols-outlined">chat</span>
+                            <h4 >or directly send a message<span class="material-symbols-outlined">chat</span></h4>
+                            
                         </div>
                         <input type="text" name="name" id="names" onChange={handleOnChange} required placeholder='Name' />
                         <input type="email" name="email" id="email" onChange={handleOnChange} required placeholder='Email' />

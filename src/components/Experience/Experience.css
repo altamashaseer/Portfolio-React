@@ -1,7 +1,17 @@
 .experience{
-    margin-top: 3rem;
-    /* height: 90vh; */
+    margin-top: 4rem;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+/* RESPONSIVE */
+@media screen and (max-width:800px){
+    .e-heading{
+        font-size:2rem ;
+    }
+}
+@media screen and (max-width:600px){
+    .e-heading{
+        font-size:1.2rem ;
+    }
 }

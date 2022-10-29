@@ -1,4 +1,4 @@
-import React , {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Skill from './Skill'
 import javascript from '../../img/skills/javascript.svg'
 import './Skills.css'
@@ -12,7 +12,7 @@ const Skills = () => {
         },
         {
             'key': 'JavaScript',
-            image: javascript 
+            image: javascript
             // image: require('../../img/skills/javascript.svg').default,
         },
         {
@@ -63,23 +63,22 @@ const Skills = () => {
             'key': 'Redux',
             image: require('../../img/skills/redux.svg').default,
         },
-      
-        
+
+
     ]
     useEffect(() => {
-        Aos.init({duration: 1300})
-      }, [])
+        Aos.init({ duration: 1300 })
+    }, [])
 
     return (
-        <div className='skills'>
+        <div className='skills global-margin'>
             <h3 className="heading s-heading">Skills 🔥</h3>
-
             <div className="container">
-                    {skill.map((element) => {
-                        return <div  data-aos="fade-up" key={element.key}>
-                            <Skill image={element.image} SName={element.key} />
-                        </div>
-                    })}
+                {skill.map((element) => {
+                    return <div data-aos="fade-up" key={element.key}>
+                        <Skill image={element.image} SName={element.key} />
+                    </div>
+                })}
             </div>
         </div>
     )

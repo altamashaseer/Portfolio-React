@@ -17,7 +17,8 @@ function Intro() {
             <h4 >and I am </h4>
             <Typewriter
               options={{
-                strings: ['React Developer', 'Frontend Enthusiast', 'Dedicated Programmer', 'Team Player'],
+                strings: ['React Developer', 'Frontend Enthusiast', 'Team Player'],
+                // 'Dedicated Programmer'
                 autoStart: true,
                 loop: true,
                 changeDelay: 1

@@ -3,9 +3,9 @@ import './Projects.css'
 
 function ProjectItem(props) {
     return (
-        <div>
+        <div id='haha'>
             <div className="card p-card">
-                <img src={props.img} className="card-img-top p-img" alt="..." />
+                <img id='img' src={props.img} className="card-img-top p-img" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{props.heading}</h5>
                     <p className="card-text">{props.description}</p>

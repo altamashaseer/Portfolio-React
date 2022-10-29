@@ -12,7 +12,7 @@ function Experience() {
     return (
         <div className='experience'>
             <h3 className="heading e-heading">Education & Experience 💼</h3>
-            <div className="e-wrapper">
+            <div className="e-wrapper global-padding">
                 <VerticalTimeline lineColor={'var(--black)'}>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--school"

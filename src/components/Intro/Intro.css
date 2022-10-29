@@ -1,6 +1,6 @@
 .intro {
   display: flex;
-  height: 70vh;
+  height: 80vh;
   margin-top: 6rem;
   justify-content: center;
 }
@@ -13,7 +13,7 @@
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
-  font-size: 2.5rem !important;
+  font-size: 3rem !important;
   margin-left: .7rem;
 }
 
@@ -54,8 +54,9 @@
 .i-main {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   gap: 2rem;
+
   align-items: center;
 }
 
@@ -63,12 +64,13 @@
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  flex-wrap: wrap;
 }
 
 .name span {
   color: var(--black);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 #name {
@@ -127,12 +129,69 @@
 
 
 .i-para {
-  /* font-weight: 300; */
   font-size: 14px;
   color: var(--gray);
   margin-top: 10px;
-  width: 95%;
+  width: 90%;
   line-height: 1.7;
 }
 
 /* background */
+
+
+/* Responsive */
+@media screen and (max-width:1100px) {
+  .intro {
+    margin: 5rem 0;
+    height: 100%;
+  }
+
+  .i-main {
+    width: 100%;
+  }
+
+  .i-name {
+    width: 80%;
+  }
+
+  .name span {
+    font-size: 2rem;
+  }
+
+  .typeeffect h4,
+  .Typewriter__wrapper {
+    font-size: 1rem;
+  }
+
+  .wave {
+    font-size: 2rem !important;
+  }
+
+  .i-para {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .wave {
+    display: none;
+  }
+
+  .name span {
+    font-size: 1.8rem;
+  }
+
+  /* .typeeffect{
+    position: relative;
+  } */
+  .typeeffect h4,
+  .Typewriter__wrapper,
+  {
+    font-size: .9rem;
+  }
+  /* .Typewriter__cursor,
+  .Typewriter__wrapper{
+    position: absolute
+  } */
+}

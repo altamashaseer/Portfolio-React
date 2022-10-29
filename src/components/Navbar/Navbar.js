@@ -11,12 +11,13 @@ function Navbar() {
   }
 
   return (
-    <div className='n-wrapper' id='Navbar'>
+    <div id='Navbar'>
       <div className="n-left">
         <img src={logo} alt="" />
       </div>
-      <div className="n-right ">
+      <div className={`${Toggle ? 'active n-right' : 'n-right'}`} id='m-navbar'>
         <div className="n-list">
+          <span id="close-nav" onClick={handleClick}><i class="fa-solid fa-chevron-right"></i></span>
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -30,7 +31,8 @@ function Navbar() {
       </div>
 
       <div id="mobile" onClick={handleClick}>
-        <i className={`${Toggle ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}`}></i>
+        {/* <i className={`${Toggle ? 'fa-solid fa-chevron-right' : 'fa-solid fa-bars'}`}></i> */}
+        <i className='fa-solid fa-bars'></i>
       </div>
     </div>
   )
