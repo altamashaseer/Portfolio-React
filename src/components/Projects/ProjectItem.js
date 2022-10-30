@@ -3,7 +3,7 @@ import './Projects.css'
 
 function ProjectItem(props) {
     return (
-        <div id='haha'>
+        <div>
             <div className="card p-card">
                 <img id='img' src={props.img} className="card-img-top p-img" alt="..." />
                 <div className="card-body">

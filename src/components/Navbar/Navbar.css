@@ -45,7 +45,8 @@
     list-style: none;
     font-size: .9rem;
     border-bottom: 2px solid transparent;
-    margin-top: .7rem
+    margin-top: .7rem;
+    width:fit-content;
 }
 
 .n-list ul li:hover {
