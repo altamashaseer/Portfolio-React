@@ -11,11 +11,6 @@ const Skills = () => {
             image: require('../../img/skills/react.svg').default,
         },
         {
-            'key': 'JavaScript',
-            image: javascript
-            // image: require('../../img/skills/javascript.svg').default,
-        },
-        {
             'key': 'HTML',
             image: require('../../img/skills/html.svg').default,
         },
@@ -24,24 +19,21 @@ const Skills = () => {
             image: require('../../img/skills/css.svg').default,
         },
         {
-            'key': 'API Integration',
-            image: require('../../img/skills/api.svg').default,
+            'key': 'JavaScript',
+            image: javascript
+            // image: require('../../img/skills/javascript.svg').default,
         },
         {
             'key': 'Bootstrap',
             image: require('../../img/skills/bootstrap.svg').default,
         },
         {
+            'key': 'API Integration',
+            image: require('../../img/skills/api.svg').default,
+        },
+        {
             'key': 'Express JS',
             image: require('../../img/skills/express.svg').default,
-        },
-        {
-            'key': 'Figma',
-            image: require('../../img/skills/figma.svg').default,
-        },
-        {
-            'key': 'Material UI',
-            image: require('../../img/skills/mui.svg').default,
         },
         {
             'key': 'Node JS',
@@ -50,6 +42,14 @@ const Skills = () => {
         {
             'key': 'MongoDB',
             image: require('../../img/skills/mongo.svg').default,
+        },
+        {
+            'key': 'Figma',
+            image: require('../../img/skills/figma.svg').default,
+        },
+        {
+            'key': 'Material UI',
+            image: require('../../img/skills/mui.svg').default,
         },
         {
             'key': 'Java',

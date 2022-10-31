@@ -24,10 +24,6 @@ function Intro() {
                 changeDelay: 1
               }} />
           </div>
-          {/* <div className='i-points'>
-            <span><i class="fa-solid fa-location-dot"></i> Delhi, India</span>
-            <span><i class="fa-solid fa-briefcase"></i>TCS</span>
-          </div> */}
           <span className='i-para'>A aspiring Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</span>
         </div>
         <div className="connections">
