@@ -28,12 +28,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 200;
-    /* border: 1px solid pink; */
-}
-
-/* .n-list {
-    flex: 10;
-} */
+ }
 
 .n-list ul {
     display: flex;
@@ -47,13 +42,14 @@
     border-bottom: 2px solid transparent;
     margin-top: .7rem;
     width:fit-content;
+    height: fit-content;
+    transition: .2s ease-out;
 }
 
 .n-list ul li:hover {
     cursor: pointer;
     color: var(--blue);
     border-bottom: 2px solid var(--blue);
-    transition: .1s ease-out;
 }
 
 .n-button {

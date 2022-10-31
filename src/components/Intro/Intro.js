@@ -24,14 +24,16 @@ function Intro() {
                 changeDelay: 1
               }} />
           </div>
-
+          {/* <div className='i-points'>
+            <span><i class="fa-solid fa-location-dot"></i> Delhi, India</span>
+            <span><i class="fa-solid fa-briefcase"></i>TCS</span>
+          </div> */}
           <span className='i-para'>A aspiring Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</span>
         </div>
         <div className="connections">
           <a href="https://github.com/altamashaseer" target='__blank'><i className="fa-brands fa-github"></i></a>
 
           <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" target='__blank'><i className="fa-brands fa-linkedin-in"></i></a>
-
           <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" ><i className="fa-regular fa-envelope"></i></a>
         </div>
       </div>

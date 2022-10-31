@@ -6,6 +6,14 @@
 }
 
 /* main*/
+.i-main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 3rem;
+  align-items: center;
+  margin-left: 1.8rem;
+}
 
 .wave {
   animation-name: wave-animation;
@@ -51,14 +59,7 @@
   }
 }
 
-.i-main {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  gap: 2rem;
 
-  align-items: center;
-}
 
 .i-name {
   display: flex;
@@ -111,13 +112,25 @@
   font-size: 1.5rem;
 }
 
+.i-para{
+  font-size: 15px;
+  color: var(--gray);
+  margin-top: 10px;
+  width: 90%;
+  line-height: 1.7;
+}
+b{
+  font-size: 18px;
+}
+
+
 .connections {
   display: flex;
   justify-content: flex-start;
 }
 
 .connections i {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin: 13px;
   color: var(--black);
 
@@ -128,13 +141,6 @@
 }
 
 
-.i-para {
-  font-size: 14px;
-  color: var(--gray);
-  margin-top: 10px;
-  width: 90%;
-  line-height: 1.7;
-}
 
 /* background */
 
@@ -148,6 +154,8 @@
 
   .i-main {
     width: 100%;
+    margin-left: 0;
+    gap:2rem;
   }
 
   .i-name {
@@ -171,6 +179,9 @@
     width: 100%;
     font-size: small;
   }
+  .connections i {
+    font-size: 2.5rem;
+}
 }
 
 @media screen and (max-width:700px) {
