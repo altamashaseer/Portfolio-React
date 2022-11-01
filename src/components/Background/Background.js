@@ -1,12 +1,9 @@
 import React from 'react'
-import './Bg.css'
+import './Background.css'
 
-function Bg() {
+function Background() {
     return (
-        <div>
-            {/* <div class="context">
-                <h1>Pure Css Animated Background</h1>
-            </div> */}
+        <div className='bg-container'>
             <div class="area" >
                 <ul class="circles">
                     <li></li>
@@ -25,4 +22,4 @@ function Bg() {
     )
 }
 
-export default Bg
+export default Background
