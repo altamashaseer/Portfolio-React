@@ -48,7 +48,7 @@ function Experience() {
 
                         icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">B.Tech (ME) </h3>
+                        <h3 className="vertical-timeline-element-title">B.Tech</h3>
                         <h6 className="vertical-timeline-element-subtitle">Dr. A.P.J. Abdul Kalam Technical University</h6>
                         <p>
                             Creative Direction, User Experience, Visual Design, Project Management, Team Leading

@@ -26,7 +26,7 @@ function Intro() {
                 changeDelay: 1
               }} />
           </div>
-          <span className='i-para'>A aspiring Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</span>
+          <span className='i-para'><b> A aspiring Full Stack Software Developer</b> 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</span>
         </div>
         <div className="connections">
           <a href="https://github.com/altamashaseer" target='__blank'><i className="fa-brands fa-github"></i></a>
