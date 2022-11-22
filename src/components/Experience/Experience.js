@@ -10,7 +10,7 @@ import ScienceIcon from '@mui/icons-material/Science';
 
 function Experience() {
     return (
-        <div className='experience'>
+        <div className='experience padding-top' id='experience'>
             <h3 className="heading e-heading">Education & Experience 💼</h3>
             <div className="e-wrapper global-padding">
                 <VerticalTimeline lineColor={'var(--black)'}>

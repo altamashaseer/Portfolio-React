@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   /* --blue: #8c00ff; */
   --blue: #00457a;
@@ -9,12 +13,13 @@
 }
 
 .global-padding {
-  padding: 0rem 3.5rem;
+  padding: 0 3.5rem;
   overflow: hidden;
   box-sizing: border-box;
 }
-.global-margin{
-  margin: 1rem 0;
+
+.padding-top{
+  padding-top: 80px;
 }
 
 .button {
@@ -49,6 +54,9 @@
   .global-padding {
     padding: .5rem;
   }
+  .padding-top{
+    padding-top: 90px;
+  }
 }
 @media screen and (max-width:700px){
   .heading{
@@ -56,5 +64,8 @@
   }
   .global-padding {
     padding: .2rem 0;
+  }
+  .padding-top{
+    padding-top: 60px;
   }
 }

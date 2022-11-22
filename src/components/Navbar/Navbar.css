@@ -11,6 +11,9 @@
     padding: 0 3.5rem;
     z-index: 9;
 }
+#Navbar a{
+    text-decoration: none;
+}
 
 .n-left {
     display: flex;
@@ -36,7 +39,7 @@
     margin-top: 1rem;
 }
 
-.n-list ul li {
+.n-list ul a {
     list-style: none;
     font-size: .9rem;
     border-bottom: 2px solid transparent;
@@ -44,9 +47,10 @@
     width:fit-content;
     height: fit-content;
     transition: .2s ease-out;
+    color: var(--black);
 }
 
-.n-list ul li:hover {
+.n-list ul a:hover {
     cursor: pointer;
     color: var(--blue);
     border-bottom: 2px solid var(--blue);

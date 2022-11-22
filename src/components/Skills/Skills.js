@@ -40,24 +40,20 @@ const Skills = () => {
             image: require('../../img/skills/nodejs.svg').default,
         },
         {
-            'key': 'MongoDB',
-            image: require('../../img/skills/mongo.svg').default,
-        },
-        {
-            'key': 'Figma',
-            image: require('../../img/skills/figma.svg').default,
+            'key': 'Git',
+            image: require('../../img/skills/git.svg').default,
         },
         {
             'key': 'Material UI',
             image: require('../../img/skills/mui.svg').default,
         },
         {
-            'key': 'Java',
-            image: require('../../img/skills/java.svg').default,
+            'key': 'MongoDB',
+            image: require('../../img/skills/mongo.svg').default,
         },
         {
-            'key': 'Git',
-            image: require('../../img/skills/git.svg').default,
+            'key': 'Java',
+            image: require('../../img/skills/java.svg').default,
         },
         {
             'key': 'Redux',
@@ -71,7 +67,7 @@ const Skills = () => {
     }, [])
 
     return (
-        <div className='skills global-margin'>
+        <div className='skills padding-top' id='skills'>
             <h3 className="heading s-heading">Skills 🔥</h3>
             <div className="container">
                 {skill.map((element) => {

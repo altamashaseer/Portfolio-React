@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 
 function About() {
   return (
-    <div className='about global-padding global-margin'>
+    <div className='about global-padding padding-top' id='about' >
       <h2 className='heading' id='m-heading'>About</h2>
       <div className="a-left">
         <div className="img-wrapper">

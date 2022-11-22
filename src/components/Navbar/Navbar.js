@@ -19,12 +19,12 @@ function Navbar() {
         <div className="n-list">
           <span id="close-nav" onClick={handleClick}><i class="fa-solid fa-chevron-right"></i></span>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Contact</li>
+          <a href="#intro"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#experience"><li>Experience</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
             <button className="button n-button">Resume <i className="fa-solid fa-download"></i></button>
           </ul>
         </div>
@@ -34,7 +34,7 @@ function Navbar() {
         {/* <i className={`${Toggle ? 'fa-solid fa-chevron-right' : 'fa-solid fa-bars'}`}></i> */}
         <i className='fa-solid fa-bars'></i>
       </div>
-    </div>
+    </div >
   )
 }
 

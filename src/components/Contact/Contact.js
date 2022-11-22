@@ -33,7 +33,7 @@ function Contact() {
     }
 
     return (
-        <div className='c-container global-padding'>
+        <div className='c-container global-padding padding-top' id='contact'>
             <h3 className="heading p-heading">Contact 📱</h3>
             <div className="c-wrapper">
                 <div className="left">
@@ -62,9 +62,9 @@ function Contact() {
                             <h4 >or directly send a message<span class="material-symbols-outlined">chat</span></h4>
                             
                         </div>
-                        <input type="text" name="name" id="names" onChange={handleOnChange} required placeholder='Name' />
-                        <input type="email" name="email" id="email" onChange={handleOnChange} required placeholder='Email' />
-                        <textarea name="message" id="message" cols="30" rows="9" onChange={handleOnChange} placeholder='Message' required></textarea>
+                        <input type="text" name="user_name" id="names" onChange={handleOnChange} required placeholder='Name' />
+                        <input type="email" name="user_email" id="email" onChange={handleOnChange} required placeholder='Email' />
+                        <textarea name="user_message" id="message" cols="30" rows="9" onChange={handleOnChange} placeholder='Message' required></textarea>
                         <button type='submit' disabled={Toggle} onClick={onClick} className='f-button button'>{btn.Txt} <span class="material-symbols-outlined">{btn.Icon}</span></button>
                     </form>
                     <div className="s-container">
