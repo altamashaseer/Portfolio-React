@@ -19,11 +19,13 @@ function ProjectItem(props) {
                 </div>
                 {/* <img id='img' src={props.img} className="card-img-top p-img" alt="..." /> */}
                 <div className="card-body">
-                    <h5 className="card-title">{props.heading}</h5>
-                    <p className="card-text">{props.description}</p>
+                    <div className="content">
+                        <h5 className="card-title">{props.heading}</h5>
+                        <p className="card-text">{props.description}</p>
+                    </div>
                     <div className="buttons">
-                        <a href="/"><button className="button p-button">Github</button></a>
-                        <a href="/"><button className="button p-button">Visit</button></a>
+                        <a href={props.github} target='__blank'><button className="button p-button">Github</button></a>
+                        <a href={props.link} target='__blank'><button className="button p-button">Visit</button></a>
                     </div>
                     <div className="tech">
                         {props.techused.map((tech) => {
