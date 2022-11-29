@@ -68,7 +68,7 @@ function Projects() {
                     </div>
                 })}
             </div>
-            <button  className='button'>View More</button>
+            <a href="https://github.com/altamashaseer?tab=repositories" target='__blank' className="button p-btn"> View More </a>
         </div>
     )
 }

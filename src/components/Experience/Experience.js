@@ -31,7 +31,7 @@ function Experience() {
                         <h4 className="vertical-timeline-element-title">Inter & High School</h4>
                         <h6 className="vertical-timeline-element-subtitle">GreenWood School (C.B.S.E)</h6>
                         <p>
-                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                            
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

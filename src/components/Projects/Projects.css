@@ -35,9 +35,11 @@
     width: 300px;
 
 }
+
 .p-img {
     width: 100%;
-    height: 146px;;
+    height: 146px;
+    ;
 }
 
 .tech {
@@ -57,14 +59,17 @@
     padding: .1rem;
     cursor: pointer;
 }
-.project-tech img{
+
+.project-tech img {
     width: 100%;
 }
-.content{
+
+.content {
     height: 170px;
     /* border: 2px solid black; */
 }
-.card-title{
+
+.card-title {
     font-size: 1.3rem !important;
 }
 
@@ -77,6 +82,11 @@
 
 .p-button {
     margin: 0 1rem .9rem 0;
+}
+
+.p-btn {
+    text-decoration: none;
+    margin: 2rem 0 0 0;
 }
 
 .card-title {
