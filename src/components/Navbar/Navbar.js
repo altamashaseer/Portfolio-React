@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../img/logo.png'
+import resume from '../../img/Resume/Altamash.pdf'
+// import fileSaver from 'file-saver'
 
 
 function Navbar() {
@@ -9,7 +11,12 @@ function Navbar() {
     setToggle(!Toggle)
     console.log(Toggle);
   }
-
+  // const saveFile = () => {
+  //   fileSaver.saveAs(
+  //     process.env.REACT_APP_CLIENT_URL + "/",
+  //     "MyCV.pdf"
+  //   );
+  // }
   return (
     <div id='Navbar'>
       <div className="n-left">
@@ -19,13 +26,13 @@ function Navbar() {
         <div className="n-list">
           <span id="close-nav" onClick={handleClick}><i class="fa-solid fa-chevron-right"></i></span>
           <ul>
-          <a href="#intro"><li>Home</li></a>
+            <a href="#intro"><li>Home</li></a>
             <a href="#about"><li>About</li></a>
             <a href="#skills"><li>Skills</li></a>
             <a href="#projects"><li>Projects</li></a>
             <a href="#experience"><li>Experience</li></a>
             <a href="#contact"><li>Contact</li></a>
-            <button className="button n-button">Resume <i className="fa-solid fa-download"></i></button>
+            <a href={resume} className='download-btn' download='Altamash Resume'><button className='button n-button'>Resume <i className="fa-solid fa-download"></i></button></a>
           </ul>
         </div>
       </div>

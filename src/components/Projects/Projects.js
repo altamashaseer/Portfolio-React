@@ -59,6 +59,7 @@ function Projects() {
     ]
 
     return (
+        <>
         <div className='p-container global-padding padding-top' id='projects'>
             <h3 className="heading p-heading">Projects 💻</h3>
             <div className="project-item-wrapper">
@@ -70,6 +71,7 @@ function Projects() {
             </div>
             <a href="https://github.com/altamashaseer?tab=repositories" target='__blank' className="button p-btn"> View More </a>
         </div>
+        </>
     )
 }
 
