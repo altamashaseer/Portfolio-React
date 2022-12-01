@@ -11,7 +11,8 @@
     padding: 0 3.5rem;
     z-index: 9;
 }
-#Navbar a{
+
+#Navbar a {
     text-decoration: none;
 }
 
@@ -31,7 +32,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 200;
- }
+}
 
 .n-list ul {
     display: flex;
@@ -44,8 +45,7 @@
     list-style: none;
     font-size: .9rem;
     border-bottom: 2px solid transparent;
-    margin-top: .7rem;
-    width:fit-content;
+    width: fit-content;
     height: fit-content;
     transition: .2s ease-out;
     color: var(--black);
@@ -56,15 +56,15 @@
     color: var(--blue);
     border-bottom: 2px solid var(--blue);
 }
+
 .download-btn,
-.download-btn:hover{
+.download-btn:hover {
     border-bottom: none !important;
 }
 
 .n-button {
     width: 120px;
     padding: 11px 11px;
-    margin-bottom: 13px;
 }
 
 .n-button i {
@@ -79,7 +79,7 @@
 }
 
 @media screen and (max-width:1100px) {
-    #Navbar{
+    #Navbar {
         padding: 0 1rem;
     }
 
@@ -87,6 +87,10 @@
     #close-nav {
         display: flex;
         align-items: center;
+    }
+
+    #close-nav {
+        margin-bottom: 1rem;
     }
 
     #mobile i {
@@ -121,6 +125,7 @@
     .n-list ul {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         padding: 0;
         gap: .8rem;
     }
@@ -132,7 +137,7 @@
 }
 
 @media screen and (max-width:700px) {
-    #Navbar{
+    #Navbar {
         height: 8vh;
     }
 }

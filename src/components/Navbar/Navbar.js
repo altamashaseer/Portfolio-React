@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../img/logo.png'
 import resume from '../../img/Resume/Altamash.pdf'
-// import fileSaver from 'file-saver'
-
 
 function Navbar() {
   const [Toggle, setToggle] = useState(false)
@@ -11,12 +9,7 @@ function Navbar() {
     setToggle(!Toggle)
     console.log(Toggle);
   }
-  // const saveFile = () => {
-  //   fileSaver.saveAs(
-  //     process.env.REACT_APP_CLIENT_URL + "/",
-  //     "MyCV.pdf"
-  //   );
-  // }
+
   return (
     <div id='Navbar'>
       <div className="n-left">
