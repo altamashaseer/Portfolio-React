@@ -44,6 +44,10 @@ const Skills = () => {
             image: require('../../img/skills/git.svg').default,
         },
         {
+            'key': 'Redux',
+            image: require('../../img/skills/redux.svg').default,
+        },
+        {
             'key': 'Material UI',
             image: require('../../img/skills/mui.svg').default,
         },
@@ -54,10 +58,6 @@ const Skills = () => {
         {
             'key': 'Java',
             image: require('../../img/skills/java.svg').default,
-        },
-        {
-            'key': 'Redux',
-            image: require('../../img/skills/redux.svg').default,
         },
 
 

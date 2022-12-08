@@ -5,11 +5,21 @@
     align-items: center;
 }
 
-.vertical-timeline-element-content p {
+
+.vertical-timeline-element-content p,
+li {
     font-size: .9rem !important;
     color: rgb(88, 88, 88);
     line-height: 1.3 !important;
+    /* white-space: nowrap; */
+}
 
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-top: 5px;
 }
 
 .vertical-timeline-element-subtitle {
@@ -20,12 +30,14 @@
 /* RESPONSIVE */
 @media (min-width: 1200px) {
 
-    h4 {
-        font-size: 1.3rem;
+
+    .e-wrapper {
+        width: 90%;
     }
 
-    h3 {
-        font-size: 1.5rem;
+    h3, h4 {
+        font-size: 1.4rem;
+        white-space: nowrap;
     }
 }
 

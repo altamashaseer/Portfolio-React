@@ -16,9 +16,9 @@ function About() {
 
       <div className="a-right">
         <h2 className='heading' id='d-heading'>About</h2>
-        <span className="a-para">I am a self taught Frontend Developer with extensive skills, who love<b> Programming</b>,<b> Developing</b>,<b> Learning</b> and <b> Problem Solving</b>. I am passionate about taking challenges and solving them by communicating & sharing experience.  
+        <span className="a-para">I am a self-taught Frontend Developer with extensive skills, who love<b> Programming</b>,<b> Developing</b>,<b> Learning,</b> and <b> Problem Solving</b>. I am passionate about taking challenges and solving them by communicating & sharing experiences.  
         </span>
-        <span className="a-para">Currently, working in <b>TATA Consultancy Services (TCS)</b> as <b>Frontend Developer - System Engineer</b>. In addition to my professional work, I'm always keen to learn about different techs / tools which can help in upgrading my skillset and widen my knowledge to become a efficient <b>Full Stack Developer</b>.</span>
+        <span className="a-para">Currently, working in <b>TATA Consultancy Services (TCS)</b> as <b>Frontend Developer - Assistant System Engineer</b>. In addition to my professional work, I'm always keen to learn about different techs / tools which can help to upgrade my skillset and widen my knowledge to become an efficient <b>Full Stack Developer</b>.</span>
       </div>
     </div>
   )
