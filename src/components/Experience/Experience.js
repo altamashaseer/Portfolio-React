@@ -48,7 +48,7 @@ function Experience() {
 
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
 
-                        date="Nov 2020 - Dec 2020"
+                        date="Aug 2020 – Sep 2020"
 
                         iconStyle={{ background: '#085aa8', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
 
@@ -72,7 +72,7 @@ function Experience() {
 
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
 
-                        date="JUNE 2016 - OCT 2020"
+                        date="2016 - 2020"
 
                         iconStyle={{ background: '#f6c821', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
 
