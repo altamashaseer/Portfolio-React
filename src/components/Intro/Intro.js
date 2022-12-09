@@ -33,7 +33,7 @@ function Intro() {
             <a href="https://github.com/altamashaseer" target='__blank'><i className="fa-brands fa-github"></i></a>
 
             <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" target='__blank'><i className="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" ><i className="fa-regular fa-envelope"></i></a>
+            <a href='#contact' ><i className="fa-regular fa-envelope"></i></a>
           </div>
         </div>
       </div>
