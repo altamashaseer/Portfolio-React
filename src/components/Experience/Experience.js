@@ -98,7 +98,7 @@ function Experience() {
                     >
                         <h4 className="vertical-timeline-element-title">Intermediate & High School</h4>
                         <h6 className="vertical-timeline-element-subtitle">GreenWood School (C.B.S.E)</h6>
-                        <p><b>Senior Secondary </b> - PCM <br />Completion Year: 2016<br />Percentage: 85%</p>
+                        <p><b>Senior Secondary </b> - PCM <br />Completion Year: 2016<br />Percentage: 84%</p>
                         <p><b>Secondary</b><br />Completion Year: 2014<br />CGPA: 8.89/10.0</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

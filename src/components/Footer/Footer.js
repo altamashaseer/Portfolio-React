@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className='foot-container'>
       <div className="f-wrapper">
-        <span>Made with ❤️ by Altamash | © 2022</span>
+        <span>Made with ❤️ by Altamash | © 2023</span>
       </div>
     </div>
   )

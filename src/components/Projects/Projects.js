@@ -7,6 +7,10 @@ import inotebook1 from '../../img/projects/inotebook1.png'
 import inotebook2 from '../../img/projects/inotebook2.png'
 import drip1 from '../../img/projects/drip1.png'
 import drip2 from '../../img/projects/drip2.png'
+import whatsapp1 from '../../img/projects/whatsapp2.png'
+import whatsapp2 from '../../img/projects/whatsapp1.png'
+import scss from '../../img/skills/scss.png'
+import firebase from '../../img/skills/firebase.png'
 
 function Projects() {
     const ProjectItems = [
@@ -23,6 +27,20 @@ function Projects() {
                 { t: require('../../img/skills/html.svg').default },
                 { t: require('../../img/skills/css.svg').default },
                 { t: require('../../img/skills/javascript.svg').default },
+            ]
+
+        },
+        {
+            img1: whatsapp1,
+            img2: whatsapp2,
+            'heading': 'WhatsApp Clone',
+            'description': "WhatsApp Web clone developed using React JS. Integrated Firebase services for authentication, database, and backend.",
+            'link': 'https://whatsapp-official.netlify.app/',
+            'github': 'https://github.com/altamashaseer/WhatsApp-Clone-React',
+            'techused': [
+                { t: require('../../img/skills/react.svg').default },
+                { t: firebase },
+                { t: scss },
             ]
 
         },
@@ -60,17 +78,17 @@ function Projects() {
 
     return (
         <>
-        <div className='p-container global-padding padding-top' id='projects'>
-            <h3 className="heading p-heading">Projects 💻</h3>
-            <div className="project-item-wrapper">
-                {ProjectItems.map((element) => {
-                    return <div className='each-card' key={element.heading}>
-                        <ProjectItem heading={element.heading} img1={element.img1} img2={element.img2} description={element.description} techused={element.techused} link={element.link} github={element.github} />
-                    </div>
-                })}
+            <div className='p-container global-padding padding-top' id='projects'>
+                <h3 className="heading p-heading">Projects 💻</h3>
+                <div className="project-item-wrapper">
+                    {ProjectItems.map((element) => {
+                        return <div className='each-card' key={element.heading}>
+                            <ProjectItem heading={element.heading} img1={element.img1} img2={element.img2} description={element.description} techused={element.techused} link={element.link} github={element.github} />
+                        </div>
+                    })}
+                    <a href="https://github.com/altamashaseer?tab=repositories" target='__blank' className="button p-btn"> View More <span class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
             </div>
-            <a href="https://github.com/altamashaseer?tab=repositories" target='__blank' className="button p-btn"> View More </a>
-        </div>
         </>
     )
 }
