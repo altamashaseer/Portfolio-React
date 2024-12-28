@@ -11,7 +11,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9t2ivnd', 'template_0510peu', form.current, '2PHluZ8FTnIrYRNNN')
+        emailjs.sendForm('service_zawgkid', 'template_0510peu', form.current, '2PHluZ8FTnIrYRNNN')
 
         e.target.reset();
 

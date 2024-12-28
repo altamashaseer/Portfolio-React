@@ -22,8 +22,8 @@ function Navbar() {
             <a href="#intro"><li>Home</li></a>
             <a href="#about"><li>About</li></a>
             <a href="#skills"><li>Skills</li></a>
-            <a href="#projects"><li>Projects</li></a>
             <a href="#experience"><li>Experience</li></a>
+            <a href="#projects"><li>Projects</li></a>
             <a href="#contact"><li>Contact</li></a>
             <a href={resume} className='download-btn' download="Altamash's Resume"><button className='button n-button'>Resume <i className="fa-solid fa-download"></i></button></a>
           </ul>

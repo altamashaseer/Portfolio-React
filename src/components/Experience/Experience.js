@@ -19,19 +19,43 @@ function Experience() {
                         className="vertical-timeline-element--work"
                         iconClassName='vertical-timeline-icon'
 
+                        contentStyle={{ borderTop: '3px solid #085aa8', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
+
+                        contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
+
+                        date="AUG 2023 - present"
+
+                        iconStyle={{ background: '#085aa8', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
+
+                        icon={<WorkIcon />}
+                    >
+                        <h4 className="vertical-timeline-element-title">React Developer</h4>
+                        <h6 className="vertical-timeline-element-subtitle">Uplers</h6>
+                        <p><b>Responsibilites</b></p>
+                        <ul>
+                            <li>Developed intuitive interfaces for AI-powered platforms.</li>
+                            <li>Collaborated with teams to deliver scalable and maintainable features.</li>
+                            <li>Optimized performance and ensured code quality through best practices.</li>
+                            <li>Streamlined complex workflows into user-friendly solutions.</li>
+                        </ul>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        iconClassName='vertical-timeline-icon'
+
                         contentStyle={{ borderTop: '3px solid #317773', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
 
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
 
-                        date="APR 2021 - present"
+                        date="APR 2021 - AUG 2023"
 
                         iconStyle={{ background: '#317773', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
 
                         icon={<WorkIcon />}
                     >
-                        <h4 className="vertical-timeline-element-title">Assistant System Engineer</h4>
+                        <h4 className="vertical-timeline-element-title">System Engineer</h4>
                         <h6 className="vertical-timeline-element-subtitle">Tata Consultancy Services (TCS)</h6>
-                        <p>Currently working with TCS as React JS developer.</p>
+                        {/* <p>Currently working with TCS as React JS developer.</p> */}
                         <p><b>Responsibilites</b></p>
                         <ul>
                             <li>Suggesting & Implementing the solutions to problems.</li>
