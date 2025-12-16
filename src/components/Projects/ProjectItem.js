@@ -14,6 +14,11 @@ function ProjectItem(props) {
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img src={props.img2} class="d-block w-100 p-img" alt="Project" />
                             </div>
+                            {props.img3 &&
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src={props.img3} class="d-block w-100 p-img" alt="Project" />
+                                </div>
+                            }
                         </div>
                     </div>
                 </div>

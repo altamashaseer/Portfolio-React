@@ -8,32 +8,48 @@ function Intro() {
   return (
     <>
       <div className='intro' id='intro'>
-      <Background />
+        <Background />
         <div className="i-main global-padding">
           <div className="i-name ">
             <div className='name'>
-              <span>Hi, I am  </span>
+              <span>Hi, I am </span>
               <span id='name'>Altamash Aseer </span><span className="wave">👋</span>
             </div>
 
             <div className="typeeffect">
-              <h4 >and I am </h4>
+              {/* Removed "and I am" for a cleaner, more senior look */}
               <Typewriter
                 options={{
-                  strings: ['React Developer', 'Frontend Enthusiast', 'Team Player'],
-                  // 'Dedicated Programmer'
+                  strings: [
+                    'Senior Frontend Engineer',
+                    'React.js & Next.js Specialist',
+                    'Full Stack Developer',
+                    'SaaS Architect'
+                  ],
                   autoStart: true,
                   loop: true,
-                  changeDelay: 1
+                  deleteSpeed: 50,
+                  delay: 40
                 }} />
             </div>
-            <span className='i-para'> A aspiring <b>Full Stack Developer</b> 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</span>
-          </div>
-          <div className="connections">
-            <a href="https://github.com/altamashaseer" target='__blank'><i className="fa-brands fa-github"></i></a>
 
-            <a href="https://www.linkedin.com/in/altamash-aseer-746aa3193/" target='__blank'><i className="fa-brands fa-linkedin-in"></i></a>
-            <a href='#contact' ><i className="fa-regular fa-envelope"></i></a>
+            <span className='i-para'>
+              <b>Senior Software Engineer</b> 🚀 with <b>4.5+ years</b> of experience architecting scalable <b>SaaS platforms</b>.
+              <br />
+              I specialize in building <b>high-performance React ecosystems</b>, optimizing complex UIs, and translating business requirements into <b>robust technical solutions</b>.
+            </span>
+          </div>
+
+          <div className="connections">
+            <a href="https://github.com/altamashaseer" target='__blank' aria-label="GitHub">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/altamash-aseer/" target='__blank' aria-label="LinkedIn">
+              <i className="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href='#contact' aria-label="Contact Me">
+              <i className="fa-regular fa-envelope"></i>
+            </a>
           </div>
         </div>
       </div>

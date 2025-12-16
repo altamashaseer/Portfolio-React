@@ -12,13 +12,18 @@ function About() {
         <div className="img-wrapper">
           <Lottie animationData={developer} loop={true} />
         </div>
-      </div>     
+      </div>
 
       <div className="a-right">
-        <h2 className='heading' id='d-heading'>About</h2>
-        <span className="a-para">I am a self-taught Frontend Developer with extensive skills, who love<b> Programming</b>,<b> Developing</b>,<b> Learning,</b> and <b> Problem Solving</b>. I am passionate about taking challenges and solving them by communicating & sharing experiences.  
+        <h2 className='heading' id='d-heading'>About Me</h2>
+
+        <span className="a-para">
+          With over <b>4.5 years of professional experience</b>, I am a Software Engineer focused on building robust, user-centric frontend architectures. Currently, I lead frontend initiatives at <b>Uplers</b>, enabling <b>AI-driven recruitment platforms</b> that serve thousands of daily users.
         </span>
-        <span className="a-para">Currently, working in <b>Uplers</b> as <b>React Developer</b>. In addition to my professional work, I'm always keen to learn about different techs / tools which can help to upgrade my skillset and widen my knowledge to become an efficient <b>Full Stack Developer</b>.</span>
+
+        <span className="a-para">
+          I specialize in translating complex business requirements into pixel-perfect, scalable code using <b>React.js, Next.js, and TypeScript</b>. My background spans from migrating enterprise legacy systems at <b>Tata Consultancy Services (TCS)</b> to building agile <b>SaaS products</b> from scratch. I am passionate about <b>performance optimization</b>, clean code, and delivering seamless user experiences.
+        </span>
       </div>
     </div>
   )

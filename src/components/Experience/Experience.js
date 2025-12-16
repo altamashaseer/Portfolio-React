@@ -5,126 +5,92 @@ import 'react-vertical-timeline-component/style.min.css';
 import WorkIcon from '@mui/icons-material/Work';
 import StarIcon from '@mui/icons-material/Star';
 import SchoolIcon from '@mui/icons-material/School';
-import ScienceIcon from '@mui/icons-material/Science';
 import InternIcon from '@mui/icons-material/Lightbulb';
 
 
 function Experience() {
     return (
         <div className='experience padding-top' id='experience'>
-            <h3 className="heading e-heading">Education & Experience 💼</h3>
+            <h3 className="heading e-heading">Experience & Education 💼</h3>
             <div className="e-wrapper global-padding">
                 <VerticalTimeline lineColor={'var(--black)'}>
+
+                    {/* UPLERS - Current Role */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         iconClassName='vertical-timeline-icon'
-
                         contentStyle={{ borderTop: '3px solid #085aa8', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
-                        date="AUG 2023 - present"
-
+                        date="AUG 2023 - Present"
                         iconStyle={{ background: '#085aa8', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
-
                         icon={<WorkIcon />}
                     >
-                        <h4 className="vertical-timeline-element-title">React Developer</h4>
-                        <h6 className="vertical-timeline-element-subtitle">Uplers</h6>
-                        <p><b>Responsibilites</b></p>
+                        <h4 className="vertical-timeline-element-title">Senior Software Engineer</h4>
+                        <h6 className="vertical-timeline-element-subtitle">Uplers (Remote)</h6>
+                        <p><b>Key Achievements</b></p>
                         <ul>
-                            <li>Developed intuitive interfaces for AI-powered platforms.</li>
-                            <li>Collaborated with teams to deliver scalable and maintainable features.</li>
-                            <li>Optimized performance and ensured code quality through best practices.</li>
-                            <li>Streamlined complex workflows into user-friendly solutions.</li>
+                            <li><b>AI Platform Leadership:</b> Led frontend development for an AI-interview platform scaling to 8,000+ daily interviews.</li>
+                            <li><b>Recruitment Automation:</b> Architected a portal managing a 3 million+ talent network from scratch.</li>
+                            <li><b>Performance Tuning:</b> Implemented advanced caching strategies, cutting API load times by <b>25%</b>.</li>
+                            <li><b>Analytics Integration:</b> Built user-tracking systems to drive data-informed product decisions.</li>
                         </ul>
                     </VerticalTimelineElement>
+
+                    {/* TCS - Previous Role */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         iconClassName='vertical-timeline-icon'
-
                         contentStyle={{ borderTop: '3px solid #317773', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         date="APR 2021 - AUG 2023"
-
                         iconStyle={{ background: '#317773', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
-
                         icon={<WorkIcon />}
                     >
-                        <h4 className="vertical-timeline-element-title">System Engineer</h4>
+                        <h4 className="vertical-timeline-element-title">System Engineer (Frontend)</h4>
                         <h6 className="vertical-timeline-element-subtitle">Tata Consultancy Services (TCS)</h6>
-                        {/* <p>Currently working with TCS as React JS developer.</p> */}
-                        <p><b>Responsibilites</b></p>
+                        <p><b>Key Achievements</b></p>
                         <ul>
-                            <li>Suggesting & Implementing the solutions to problems.</li>
-                            <li>Converting the designs into working code.</li>
-                            <li>Making the required changes suggested by client & work on the feedback.</li>
+                            <li><b>Legacy Migration:</b> Migrated an enterprise EdTech platform to a modern React.js SPA, boosting user engagement by <b>30%</b>.</li>
+                            <li><b>Next.js Application:</b> Developed a workforce attendance system using Next.js to streamline internal operations.</li>
+                            <li><b>Component Library:</b> Built reusable, pixel-perfect components from Figma designs, reducing development time for future modules.</li>
                         </ul>
                     </VerticalTimelineElement>
+
+                    {/* INTERNSHIP */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         iconClassName='vertical-timeline-icon'
-
-
                         contentStyle={{ borderTop: '3px solid #085aa8', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         date="Aug 2020 – Sep 2020"
-
                         iconStyle={{ background: '#085aa8', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
-
                         icon={<InternIcon />}
                     >
-                        <h4 className="vertical-timeline-element-title">Web Developer - Intern</h4>
-                        <h6 className="vertical-timeline-element-subtitle">Zeichnen services</h6>
-                        <p>Learnt about web technologies & acquired hands-on experience building dynamic pages.</p>
-                        <p><b>Responsibilites</b></p>
+                        <h4 className="vertical-timeline-element-title">Web Developer Intern</h4>
+                        <h6 className="vertical-timeline-element-subtitle">Zeichnen Services</h6>
+                        <p><b>Role Overview</b></p>
                         <ul>
-                            <li>Fixing significant bugs & errors under guidance of senior developers.</li>
-                            <li>Improving existing code browser compatibility & mobile responsiveness.</li>
-                            {/* <li>Making the required changes suggested by client & work on the feedback</li> */}
+                            <li>Improved browser compatibility and mobile responsiveness for client websites.</li>
+                            <li>Assisted senior developers in debugging and deploying frontend patches.</li>
                         </ul>
                     </VerticalTimelineElement>
+
+                    {/* EDUCATION - B.Tech Only */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--school"
                         iconClassName='vertical-timeline-icon'
-
                         contentStyle={{ borderTop: '3px solid #f6c821', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
                         date="2016 - 2020"
-
                         iconStyle={{ background: '#f6c821', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
-
                         icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Bachelor of Technology (ME)</h3>
-                        <h6 className="vertical-timeline-element-subtitle">IMSEC, Dr. A.P.J. Abdul Kalam Technical University</h6>
-                        <p>Graduation Year: 2020 <br />Percentage: 71.3%</p>
+                        <h4 className="vertical-timeline-element-title">Bachelor of Technology (B.Tech)</h4>
+                        <h6 className="vertical-timeline-element-subtitle">Dr. A.P.J. Abdul Kalam Technical University</h6>
+                        <p>Computer Science / Mechanical Engineering Background</p>
                     </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--school"
-                        iconClassName='vertical-timeline-icon'
 
-                        contentStyle={{ borderTop: '3px solid #4e2aa1', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
-                        contentArrowStyle={{ borderRight: '10px solid #fff ', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset' }}
-
-                        date="2014 - 2016"
-
-                        iconStyle={{ background: '#4e2aa1', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
-
-                        icon={<ScienceIcon />}
-                    >
-                        <h4 className="vertical-timeline-element-title">Intermediate & High School</h4>
-                        <h6 className="vertical-timeline-element-subtitle">GreenWood School (C.B.S.E)</h6>
-                        <p><b>Senior Secondary </b> - PCM <br />Completion Year: 2016<br />Percentage: 84%</p>
-                        <p><b>Secondary</b><br />Completion Year: 2014<br />CGPA: 8.89/10.0</p>
-                    </VerticalTimelineElement>
+                    {/* End Star */}
                     <VerticalTimelineElement
                         iconClassName='vertical-timeline-icon'
                         iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px' }}
